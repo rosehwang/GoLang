@@ -12,4 +12,9 @@ func main() {
 	shortVal2 := "Test"
 	shortVal3 := false
 	fmt.Println("shortVal1 :", shortVal1, "shortVal2 :", shortVal2, "shortVal3 :", shortVal3)
+
+	//Example
+	if i := 10; i < 11 {
+		fmt.Println("test Success!")
+	}
 }
